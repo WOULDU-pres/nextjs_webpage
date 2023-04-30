@@ -11,3 +11,22 @@ body {
 .title-sub {
   text-align : center;
 }
+
+.project {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background: #fff;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+}
