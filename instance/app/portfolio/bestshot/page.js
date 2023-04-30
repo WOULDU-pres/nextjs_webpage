@@ -1,9 +1,9 @@
 import Image from "next/image";
-import team_img from '/public/dev.jpg'
+import team_img from '/public/dev1.jpg'
 
 export default function SKTproject() {
     let team = ['Frontend Developer', 'Backend Developer', 'Machine Learning Engineer']
-    let team_img = ['/dev.jpg', '/dev.jpg', '/dev.jpg']
+    let team_img = ['/dev1.jpg', '/dev2.jpg', '/dev3.jpg']
 
     
 
@@ -14,7 +14,7 @@ export default function SKTproject() {
                 {team.map((item, index) => {
                     return (
                         <div className="project" key={index}>
-                            <img src={team_img[index]} style={{ width: "50%", height: "50%", objectFit: "cover" }} />
+                            <img src={team_img[index]} style={{ width: "90%", height: "90%", objectFit: "cover" }} />
                             <h4>{item}</h4>
                         </div>
                     )
